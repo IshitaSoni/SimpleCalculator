@@ -1,0 +1,44 @@
+.window {
+    width: 350px;
+    height:400px;
+    box-shadow: inset 2px 2px 4px 4px rgb(165, 164, 164);
+    border: blue 2px;
+    padding: 10px;
+}
+#display {
+    margin: 0 auto;
+    height: 50px;
+    width: 300px;
+    padding:15px;
+    box-shadow: 1px 1px 1px 1px rgb(192, 190, 190);
+    justify-content: center;
+    margin: 15px;
+    margin-bottom: 20px;
+    text-align: right;
+    font-size: xx-large;
+    border: none;
+}
+
+.btns {
+    display: grid;
+    margin: 0 auto; /* This centers the grid horizontally inside the parent */
+    grid-template-columns: repeat(5,60px);
+    gap: 8px;   
+}
+.gridbox {
+    justify-items: center;
+}
+
+button {
+    font-size: x-large;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border-width: 0cap;
+}
+button:hover{
+    background-color: rgb(216, 218, 218);
+}
+.btn:active {
+    background-color: rgb(202, 207, 207);
+}
